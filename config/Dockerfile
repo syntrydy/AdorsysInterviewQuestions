@@ -1,6 +1,3 @@
-# Documentation:
-#  https://www.keycloak.org/server/containers
-
 ARG KEYCLOAK_VERSION
 
 FROM quay.io/keycloak/keycloak:$KEYCLOAK_VERSION as builder

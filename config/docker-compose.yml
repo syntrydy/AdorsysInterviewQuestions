@@ -55,7 +55,7 @@ services:
       KEYCLOAK_ADMIN_PASSWORD: admin
     ports:
       - "8180:8080"
-      - "8787:8787" # debug port
+      - "8787:8787" # for debug
     networks:
       - local
 
