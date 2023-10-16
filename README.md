@@ -1,4 +1,15 @@
 # AdorsysInterviewQuestions
+## Design a Simple IAM Sytem
+
+1. Component Diagram
+  Below is a draft of the components diagram
+   ![image](https://github.com/syntrydy/AdorsysInterviewQuestions/assets/7513418/5f9a8a0d-a3f1-4f62-a616-d5f6f01d0bc6)
+
+2. Class Diagram
+   Below is a draft of class diagram(not completed)
+   ![image](https://github.com/syntrydy/AdorsysInterviewQuestions/assets/7513418/e5081e8a-4fb4-4ec8-b01e-5fd13eb62149)
+
+
 
 ## Write a Java program that calculates the factorial of a given number using a recursive method
 //Java 1.7+
