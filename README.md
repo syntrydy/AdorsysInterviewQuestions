@@ -1,6 +1,30 @@
 # AdorsysInterviewQuestions
 
-## 1- Explain the differences between OpenID Connect (OIDC) and Security Assertion Markup Language (SAML) 2.0. Provide a real-world scenario where each of these identity standards might be more suitable.
+## Write a Java program that calculates the factorial of a given number using a recursive method
+//Java 1.7+
+public class FactorialCalculator {
+    public static void main(String[] args) {
+        int number = 11;
+        long factorial = calculateFactorial(number);
+        System.out.println("Factorial of " + number + " is: " + factorial);
+    }
+
+    public static long calculateFactorial(int number) {
+        if (number == 0 || number == 1) {
+            return 1;
+        } else {
+            return number * calculateFactorial(number - 1);
+        }
+    }
+}
+
+## Open Source Contribution Exercise
+I have made a lot of contribution as one of the main developer on open source project/subproject.
+ - https://github.com/GluuFederation/oxtrust-api
+ - https://github.com/GluuFederation/oxTrust
+ - https://github.com/GluuFederation/flex
+
+## Explain the differences between OpenID Connect (OIDC) and Security Assertion Markup Language (SAML) 2.0. Provide a real-world scenario where each of these identity standards might be more suitable.
 OpenID Connect (OIDC) and Security Assertion Markup Language (SAML) 2.0 are both widely used identity standards, but they differ in their architecture, use cases, and deployment scenarios. Here are the key differences between OIDC and SAML 2.0:
 
 1. **Architecture:**
@@ -19,7 +43,7 @@ Real-World Scenarios:
 - OIDC: Consider a scenario where a user wants to log in to a mobile banking application using their Google or Facebook account. OIDC can be used here to authenticate the user and retrieve their identity information from the respective identity provider.
 - SAML 2.0: In an enterprise setting, imagine a company that uses multiple cloud-based services from different vendors. SAML 2.0 can be employed to establish trust relationships between the company's identity provider and the service providers, enabling seamless SSO across these services.
 - 
-## 2- Given a scenario where an IAM system is experiencing performance issues, identify potential bottlenecks and suggest optimization strategies.
+## Given a scenario where an IAM system is experiencing performance issues, identify potential bottlenecks and suggest optimization strategies.
 
 ### Identifying Potential Bottlenecks in IAM System Performance:
 - **Database Performance:** Check if the IAM system's database is a bottleneck. Slow database queries, insufficient indexing, or high disk I/O can impact performance.
@@ -39,7 +63,7 @@ Monitoring and Performance Tuning: Implement comprehensive monitoring and loggin
 - **Thorough Testing and Load Simulation:** Conduct load testing and simulate high concurrent user scenarios to assess the IAM system's performance under extreme workloads. This helps identify performance bottlenecks and validate optimization efforts.
 By implementing these optimization strategies, we can address potential bottlenecks, enhance the IAM system's performance, and ensure a smooth and efficient experience for users and administrators.
 
-## 3- Write a hypothetical email to a cross-functional team introducing a new IAM feature and explaining its benefits. Include clear and concise communication.
+## Write a hypothetical email to a cross-functional team introducing a new IAM feature and explaining its benefits. Include clear and concise communication.
 
 Subject: **Introducing Adaptive MFA**
 
